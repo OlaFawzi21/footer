@@ -1,0 +1,17 @@
+<div class="partner">
+
+  <div class="container">
+    <div class="header">
+      <h2 class="title">Popular categories</h2>
+      <a href="#" class="all-item">All categories</a>
+    </div>
+
+    <div class="box">
+      <div class="item" *ngFor="let data of imageArray">
+        <img class="img" src="{{ data.name }}" alt="category" />
+        <h4 class="text">{{ data.title }}</h4>
+      </div>
+    </div>
+    
+  </div>
+</div>
